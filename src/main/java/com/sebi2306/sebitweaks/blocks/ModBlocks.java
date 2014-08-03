@@ -1,4 +1,4 @@
-package blocks;
+package com.sebi2306.sebitweaks.blocks;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 

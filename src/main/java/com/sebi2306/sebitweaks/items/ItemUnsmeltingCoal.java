@@ -1,4 +1,4 @@
-package items;
+package com.sebi2306.sebitweaks.items;
 
 import net.minecraft.creativetab.CreativeTabs;
 

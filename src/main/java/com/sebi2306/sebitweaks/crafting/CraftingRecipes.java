@@ -1,10 +1,12 @@
-package com.sebi2306.sebitweaks;
+package com.sebi2306.sebitweaks.crafting;
 
-import items.ModItems;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
-import blocks.ModBlocks;
+
+import com.sebi2306.sebitweaks.blocks.ModBlocks;
+import com.sebi2306.sebitweaks.items.ModItems;
+
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class CraftingRecipes {

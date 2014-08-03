@@ -1,4 +1,4 @@
-package items;
+package com.sebi2306.sebitweaks.items;
 
 import com.sebi2306.sebitweaks.Reference;
 

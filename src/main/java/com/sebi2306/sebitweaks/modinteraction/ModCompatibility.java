@@ -1,6 +1,5 @@
-package com.sebi2306.sebitweaks;
+package com.sebi2306.sebitweaks.modinteraction;
 
-import items.ModItems;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;

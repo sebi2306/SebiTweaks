@@ -1,7 +1,11 @@
 package com.sebi2306.sebitweaks;
 
-import items.ModItems;
-import blocks.ModBlocks;
+import com.sebi2306.sebitweaks.blocks.ModBlocks;
+import com.sebi2306.sebitweaks.crafting.CraftingRecipes;
+import com.sebi2306.sebitweaks.crafting.SmeltingRecipes;
+import com.sebi2306.sebitweaks.items.ModItems;
+import com.sebi2306.sebitweaks.modinteraction.ModCompatibility;
+
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;

@@ -1,4 +1,4 @@
-package com.sebi2306.sebitweaks;
+package com.sebi2306.sebitweaks.crafting;
 
 import java.util.Iterator;
 import java.util.List;

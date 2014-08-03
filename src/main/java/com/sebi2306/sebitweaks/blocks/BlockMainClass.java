@@ -1,4 +1,4 @@
-package blocks;
+package com.sebi2306.sebitweaks.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;

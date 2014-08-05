@@ -1,3 +1,5 @@
 item.sebitweaks:unsmeltingCoal.name=Unsmelting Coal
 item.sebitweaks:rope.name=Rope
 tile.sebitweaks:unsmeltingCoalBlock.name=Unsmelting Coal Block
+item.bronzePickaxe.name=Bronze Pickaxe
+item.sebitweaks:ingotBronze.name=Bronze Ingot

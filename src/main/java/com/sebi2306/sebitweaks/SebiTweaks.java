@@ -22,6 +22,8 @@ public class SebiTweaks
     {
     	ModItems.init();
     	ModBlocks.init();
+    	Materials.initTools();
+   
     }
     
     @EventHandler

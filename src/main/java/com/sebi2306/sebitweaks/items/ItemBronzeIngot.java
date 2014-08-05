@@ -1,16 +1,15 @@
 package com.sebi2306.sebitweaks.items;
 
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.ItemStack;
 
-public class ItemUnsmeltingCoal extends ItemMainClass {
-
-	public ItemUnsmeltingCoal()
-	{
+public class ItemBronzeIngot extends ItemMainClass {
+	
+	public ItemBronzeIngot(){
+		
 		super();
-		this.setUnlocalizedName("unsmeltingCoal");
+		this.setUnlocalizedName("ingotBronze");
 		this.setMaxStackSize(64);
 		this.setCreativeTab(CreativeTabs.tabMaterials);
-		
 	}
+
 }

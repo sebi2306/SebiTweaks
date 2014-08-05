@@ -19,7 +19,7 @@ public class SmeltingRecipes {
 	GameRegistry.addSmelting(new ItemStack(Blocks.coal_block), new ItemStack(ModBlocks.unsmeltingCoalBlock), 2F);
 	GameRegistry.addSmelting(new ItemStack(ModBlocks.unsmeltingCoalBlock), new ItemStack(Blocks.coal_block), 2F);
 	GameRegistry.addSmelting(new ItemStack(Items.rotten_flesh), new ItemStack(Items.leather), 0.50F);
-	GameRegistry.addSmelting(new ItemStack(Items.dye, 6, 15), new ItemStack(Items.bone), 1F);
+//	GameRegistry.addSmelting(new ItemStack(Items.dye, 6, 15), new ItemStack(Items.bone), 1F);
 	
 	
 	}

@@ -3,7 +3,9 @@ package com.sebi2306.sebitweaks.crafting;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.oredict.ShapedOreRecipe;
 
+import com.sebi2306.sebitweaks.Materials;
 import com.sebi2306.sebitweaks.blocks.ModBlocks;
 import com.sebi2306.sebitweaks.items.ModItems;
 
@@ -22,6 +24,8 @@ public class CraftingRecipes {
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.unsmeltingCoalBlock), new Object[] {"XXX", "XXX", "XXX", 'X', new ItemStack(ModItems.unsmeltingCoal)});
 		GameRegistry.addShapedRecipe(new ItemStack(Items.name_tag), new Object[] {" AA", " BA", "C  ", 'A', new ItemStack(Items.string), 'B', new ItemStack(Items.slime_ball), 'C', new ItemStack(Items.paper)});
 		GameRegistry.addShapedRecipe(new ItemStack(Items.saddle), new Object[] {"AAA", "ABA", "C C", 'A', new ItemStack(Items.leather), 'B', new ItemStack(Items.iron_ingot), 'C', new ItemStack(ModItems.rope)});
+		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(Materials.ItemBronzePickaxe), true , new Object[] {"BBB", " S ", " S ", 'B', "ingotBronze", 'S', Items.stick}));
+		
 		
 	}
 	

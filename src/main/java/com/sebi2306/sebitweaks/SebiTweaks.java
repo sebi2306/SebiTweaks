@@ -2,6 +2,7 @@ package com.sebi2306.sebitweaks;
 
 import com.sebi2306.sebitweaks.blocks.ModBlocks;
 import com.sebi2306.sebitweaks.crafting.CraftingRecipes;
+import com.sebi2306.sebitweaks.crafting.RecipeRemover;
 import com.sebi2306.sebitweaks.crafting.SmeltingRecipes;
 import com.sebi2306.sebitweaks.items.ModItems;
 import com.sebi2306.sebitweaks.modinteraction.ModCompatibility;
@@ -23,7 +24,7 @@ public class SebiTweaks
     	ModItems.init();
     	ModBlocks.init();
     	Materials.initTools();
-   
+
     }
     
     @EventHandler
@@ -31,12 +32,16 @@ public class SebiTweaks
     {
 		CraftingRecipes.init();
 		SmeltingRecipes.init();
-		//RecipeRemover.removeRecipe();
         ModCompatibility.checkModsLoaded();
         
-        if (ModCompatibility.isTE3Loaded()){
-        	ModCompatibility.TERecipes();
-			
+        if(ModCompatibility.isIngotBronze())
+        {
+        	CraftingRecipes.initCompatRecipes();
+        }
+        
+        if (ModCompatibility.isTE4Loaded())
+        {
+        	ModCompatibility.TERecipes();			
         }
     }
 }

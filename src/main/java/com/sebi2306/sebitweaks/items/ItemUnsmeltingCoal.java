@@ -1,7 +1,7 @@
 package com.sebi2306.sebitweaks.items;
 
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemCoal;
 
 public class ItemUnsmeltingCoal extends ItemMainClass {
 

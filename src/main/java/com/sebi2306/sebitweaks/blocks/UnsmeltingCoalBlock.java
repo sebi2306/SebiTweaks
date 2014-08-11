@@ -12,6 +12,8 @@ public class UnsmeltingCoalBlock extends BlockMainClass
 		this.setBlockName("unsmeltingCoalBlock");
 		this.setBlockTextureName("unsmeltingCoalBlock");
 		this.setCreativeTab(CreativeTabs.tabBlock);
+		this.setHardness(5.0F);
+		this.setResistance(10.0F);
 	}
 
 }

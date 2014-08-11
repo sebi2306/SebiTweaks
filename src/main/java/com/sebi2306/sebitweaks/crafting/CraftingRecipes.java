@@ -24,9 +24,13 @@ public class CraftingRecipes {
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.unsmeltingCoalBlock), new Object[] {"XXX", "XXX", "XXX", 'X', new ItemStack(ModItems.unsmeltingCoal)});
 		GameRegistry.addShapedRecipe(new ItemStack(Items.name_tag), new Object[] {" AA", " BA", "C  ", 'A', new ItemStack(Items.string), 'B', new ItemStack(Items.slime_ball), 'C', new ItemStack(Items.paper)});
 		GameRegistry.addShapedRecipe(new ItemStack(Items.saddle), new Object[] {"AAA", "ABA", "C C", 'A', new ItemStack(Items.leather), 'B', new ItemStack(Items.iron_ingot), 'C', new ItemStack(ModItems.rope)});
+		GameRegistry.addShapedRecipe(new ItemStack(Items.golden_apple), new Object[] {"GGG", "GAG", "GGG", 'G', new ItemStack(Items.gold_nugget), 'A', new ItemStack(Items.apple) });
+		
+	}
+	
+	public static void initCompatRecipes()
+	{
 		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(Materials.ItemBronzePickaxe), true , new Object[] {"BBB", " S ", " S ", 'B', "ingotBronze", 'S', Items.stick}));
-		
-		
 	}
 	
 }

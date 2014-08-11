@@ -2,7 +2,6 @@ package com.sebi2306.sebitweaks;
 
 import com.sebi2306.sebitweaks.blocks.ModBlocks;
 import com.sebi2306.sebitweaks.crafting.CraftingRecipes;
-import com.sebi2306.sebitweaks.crafting.RecipeRemover;
 import com.sebi2306.sebitweaks.crafting.SmeltingRecipes;
 import com.sebi2306.sebitweaks.items.ModItems;
 import com.sebi2306.sebitweaks.modinteraction.ModCompatibility;
@@ -30,8 +29,8 @@ public class SebiTweaks
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
-		CraftingRecipes.init();
-		SmeltingRecipes.init();
+	CraftingRecipes.init();
+	SmeltingRecipes.init();
         ModCompatibility.checkModsLoaded();
         
         if(ModCompatibility.isIngotBronze())
